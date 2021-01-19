@@ -1,9 +1,9 @@
-import markovify
+from Chapter02.markovify import Text
 
-with open("corpus.txt") as f:
+with open("corpus1.txt") as f:
     CorpusText = f.read()
 
-TextModel = markovify.Text(CorpusText)
+TextModel = Text(CorpusText)
 
 print("Five randomly-generated sentences")
 print("-----------------------------------")

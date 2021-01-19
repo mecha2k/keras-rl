@@ -13,7 +13,7 @@ if sum(TransnMatrix[0]) + sum(TransnMatrix[1]) != 2:
     raise ValueError("Probabilities MUST ADD TO 1")
 
 WT = list()
-NumberDays = 200
+NumberDays = 20
 WeatherToday = states[0]
 
 print("Weather initial condition =", WeatherToday)
